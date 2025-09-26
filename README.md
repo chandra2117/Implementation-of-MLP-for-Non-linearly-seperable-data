@@ -36,6 +36,7 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
 Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
+
 ```
 #import libraries
 import numpy as np
@@ -108,9 +109,10 @@ test=np.array([[0],[1]])
 predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
-
 ```
+
 <H3>Output:</H3>
+
 #### Display the XOR classification plot
 <img width="829" height="586" alt="image" src="https://github.com/user-attachments/assets/8023e32d-2089-491b-896b-4e4f99281435" />
 
